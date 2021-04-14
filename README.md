@@ -1,2 +1,2 @@
 # python_visualisation
-Meteorological data visualisation
+Meteorological data visualisation scripts

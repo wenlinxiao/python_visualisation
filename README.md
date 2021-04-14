@@ -31,5 +31,12 @@ language: Python, bash
   <tr><td> Description: </td><td> Running a python script for 6-hourly data files </td><tr>
 </table>
 
-## 5. Gallery
+## 5. Rossby_contourf_sph.py, convert_gif.py
+<table>
+  <tr><td> Description: </td><td> plot contourf of Rossby wave; convert a series of Rossby wave images into a .gif </td><tr>
+  <tr><td> Input: </td><td> decomposed Rossby wave data (6-hourly) </td><tr>
+  <tr><td> Output: </td><td> see "Gallery-Rossby.gif" </td><tr>
+</table>
+
+## 6. Gallery
 examples of outcome figures

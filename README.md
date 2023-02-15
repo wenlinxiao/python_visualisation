@@ -9,6 +9,7 @@ language: Python, bash
   <tr><td> Input: </td><td> reanalysis wind data (u,v) and geopotential height data (Z) for different waves, decomposed by normal-mode function software MODES (https://modes.cen.uni-hamburg.de/) </td><tr>
   <tr><td>Output: </td><td> wind vectors and geopotential height contour on a global map (longitude range shifted automatically according to the wave center in each data file) </td><tr>
 </table>
+<img src="https://raw.githubusercontent.com/wenlinxiao/python_visualisation/main/Gallery-Hough_wind_field_eig_k1_n1_D10km.png">
 
 ## 2. mean_spectra.py
 <table>
@@ -17,7 +18,7 @@ language: Python, bash
   <tr><td> Input: </td><td> binary data of En_k(n,l), En_n(k,l) </td><tr>
   <tr><td> Output: </td><td> 1-D mean energy spectra figures (x: log(k), log(n), y: log(En), irrot./total ratio </td><tr>
 </table>
-
+<img src="https://raw.githubusercontent.com/wenlinxiao/python_visualisation/main/Gallery-mean_spectra.png">
 
 ## 3. plot_2D.py
 <table>
@@ -25,6 +26,7 @@ language: Python, bash
   <tr><td> Input: </td><td> binary data of En(k,n,l) </td><tr>
   <tr><td> Output: </td><td> 2-D mean energy spectra figures </td><tr>
 </table>
+<img src="https://raw.githubusercontent.com/wenlinxiao/python_visualisation/main/Gallery-plot_2D-irrot_to_total_Era5_k_xlog.png">
 
 ## 4. loop_plot.sh
 <table>
@@ -37,6 +39,7 @@ language: Python, bash
   <tr><td> Input: </td><td> decomposed Rossby wave data (6-hourly) </td><tr>
   <tr><td> Output: </td><td> see "Gallery-Rossby.gif" </td><tr>
 </table>
+<img src="https://raw.githubusercontent.com/wenlinxiao/python_visualisation/main/Gallery-Rossby.gif">
 
 ## 6. Gallery
 examples of outcome figures
